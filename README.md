@@ -1,5 +1,5 @@
 # data-DMRP
-Data of paper J. Xie et al., Detecting and modelling real percolation and phase transitions of information on social media. 
+This repository contains data I used in support of my work https://doi.org/10.1038/s41562-021-01090-z. The use of the data is required to cite our article: Jiarong Xie, Fanhui Meng, Jiachen Sun, Xiao Ma, Gang Yan and Yanqing Hu (2001) Detecting and modelling real percolation and phase transitions of information on social media, Nature Human Behaviour.
 
 This project provides the dataset of network structure, track of 253 information items and evolution dataset of Weibo, and evolution dataset of Twitter. In order to protect the privacy of users, the user’s ID are all reset in the dataset. By checking their IDs, one can rebuild the diffusion path of each cascade.
 
@@ -7,7 +7,7 @@ The file “weibo_activity.txt” provides the evolution dataset of 192,749 Weib
 
 The file “twitter_activity.txt” provides the evolution dataset of 184,095 Twitter users. The first to fourth column are similar to those in file “weibo_activity.txt”. The fifty column is the time interval of collection time, in days, for each user.
 
-By decompressing the file “tracks.rar”, one will obtain the files “T1.txt” ~ “T253.txt” which provide the tracks of 253 information items. In each .txt file, the tweet users (including the poster) are listed by their reset ID. The file “cascade_size.txt” provides the numbers of retweet users (including the poster) of the information items. Note that some retweet users (including the poster) are missing when we collected the tracks data.
+By decompressing the file “tracks.rar”, one will obtain the files “T1.txt” ~ “T253.txt” which provide the tracks of 253 information items. In each .txt file, the tweet users (including the poster) are listed by their reset ID. The file “cascade_size.txt” provides the numbers of retweet users (including the poster) of the information items. Note that some retweet users (including the poster) are missing when we collected the tracks data. For the privacy of users, the unique identifier of the tracks are protected. The unique identifiers are available from the corresponding author upon reasonable request.
 
 The code reads the file “kout_kin_count.txt”, which provides the degree distribution of our Weibo network 2014. The first to third column are the follower count, the followee count, and the number of users with both that follower count and followee count, respectively.
 
